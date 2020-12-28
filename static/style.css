@@ -3,35 +3,14 @@ html {
 }
 
 body {
-	font: 100% Arial, Helvetica, sans-serif;
-	line-height: 1.5;
-	position: relative;
-	background: #fff;
-	color: rgb(76, 67, 65);
-	font-weight:normal;
-	font-style:normal;
-
-    width: 1280px;
-	margin: 20 auto;
-    padding: 20px;
+	text-align: center;
 }
 
 
-form, div{
-	border-bottom: 2px solid rgb(76, 67, 65);
-	margin-bottom: 5em;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50em
+.form{
+    margin: auto;
 }
 
-h1 {
-	font-family: Georgia, Times, "Times New Roman", serif;
-	font-size: 1.8em;
-	border-bottom: 2px solid rgb(76, 67, 65);
-	margin-bottom: 1.5em;
-	background: url(../_images/icon_sprites_50.png) no-repeat
-}
 
 .example_a {
     border: none;
