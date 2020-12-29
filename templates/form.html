@@ -7,11 +7,16 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Welcome To Sentiment Analyzer</h1>
+    <h1 class="title">Welcome To Sentiment Analyzer</h1>
+    <div class="images">
+        <h3 class="emoji">😃</h3>
+        <h3 class="emoji">😐</h3>
+        <h3 class="emoji">😭</h3>
+    </div>
     <form method="POST" class="form">
         <textarea name="text1" placeholder="Say Something: ...." rows="10" cols="109"></textarea><br><br>
 
-        <button class="example_a" type="submit">Submit</button>
+        <button class="submit_button" type="submit">Analyze Sentiment</button>
     </form>
     {% if final %}
     <div>
