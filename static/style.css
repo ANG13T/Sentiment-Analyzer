@@ -16,6 +16,7 @@ textarea{
     border-radius:6px;
     font-family: 'Poppins', sans-serif;
     width:60%;
+    font-size: 1rem;
 }
 
 textarea:focus{
@@ -54,8 +55,14 @@ textarea:focus{
     height: 4rem;
     font-size: 1rem;
     font-weight: bold;
+    background-color: #163c8f;
+    border: 2px solid #163c8f;
+    border-radius: 6px;
+    color: white;
+    transition: 1s background-color;
 }
 
 .submit_button:hover{
     cursor: pointer;
+    background-color: #1f4db1;
 }
